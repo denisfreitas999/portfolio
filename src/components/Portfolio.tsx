@@ -116,6 +116,11 @@ const Portfolio = () => {
       title: "Plataforma de Orçamento Participativo Digital Decide Brasil - Sistema Administrativo Web Decide Brasil",
       description: "Sistema administrativo web para gestão de orçamento participativo",
       registry: "Processo No: BR512024002835-8"
+    },
+    {
+      title: "LGPD COMPLIANCE LSP: SERVIDOR DE ANÁLISE ESTÁTICA PARA CONFORMIDADE CONTÍNUA COM A LGPD.",
+      description: "Servidor LSP de análise estática para conformidade com a LGPD.",
+      registry: "Processo No: BR512026004117-1"
     }
   ];
 
@@ -184,7 +189,7 @@ const Portfolio = () => {
             <div className="w-24 h-1 bg-gradient-to-r from-transparent via-primary to-transparent mx-auto"></div>
           </div>
 
-          <div className="grid gap-6 md:grid-cols-1 lg:grid-cols-3">
+          <div className="grid gap-6 md:grid-cols-2">
             {softwareRegistrations.map((reg, index) => (
               <div key={index} className="cyber-card group flex flex-col h-full">
                 <h3 className="text-lg font-orbitron font-semibold text-primary mb-3 leading-tight text-center">

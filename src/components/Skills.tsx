@@ -5,7 +5,7 @@ const Skills = () => {
     {
       icon: Code,
       title: 'Linguagens',
-      skills: ['Java', 'JavaScript', 'TypeScript', 'Python', 'Golang', 'C'],
+      skills: ['Python', 'JavaScript', 'TypeScript'],
     },
     {
       icon: Database,
@@ -13,14 +13,9 @@ const Skills = () => {
       skills: ['SQL', 'PLpgSQL', 'PostgreSQL', 'MongoDB', 'MySQL', 'SQLite'],
     },
     {
-      icon: Smartphone,
-      title: 'Frontend',
-      skills: ['React', 'React Native', 'HTML', 'CSS'],
-    },
-    {
       icon: Server,
       title: 'Backend',
-      skills: ['Spring Boot', 'Node.js', 'Express', 'Sequelize'],
+      skills: ['Node.js', 'Express', 'Sequelize'],
     },
     {
       icon: Terminal,
@@ -36,11 +31,6 @@ const Skills = () => {
       icon: Wrench,
       title: 'Ferramentas',
       skills: ['WebSocket', 'Socket.io', 'Expo', 'Lucidchart', 'Truffle Ganache'],
-    },
-    {
-      icon: GitBranch,
-      title: 'Sistemas',
-      skills: ['Linux', 'Windows'],
     },
   ];
 

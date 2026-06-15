@@ -98,10 +98,7 @@ All colors MUST be HSL.
     border: 1px solid hsl(var(--neon-cyan) / 0.2);
   }
   
-  .neon-text {
-    color: hsl(var(--neon-cyan));
-    text-shadow: 0 0 10px hsl(var(--neon-cyan)), 0 0 20px hsl(var(--neon-cyan) / 0.5), 0 0 30px hsl(var(--neon-cyan) / 0.3);
-  }
+.neon-text { color: #00f5ff; text-shadow: 0 0 2px rgba(0, 245, 255, 0.7), 0 0 6px rgba(0, 245, 255, 0.4), 0 0 12px rgba(0, 245, 255, 0.2); } /* Opcional: brilho mais forte ao passar o mouse */ .neon-text:hover { text-shadow: 0 0 3px rgba(0, 245, 255, 0.8), 0 0 8px rgba(0, 245, 255, 0.5), 0 0 16px rgba(0, 245, 255, 0.3); }
   
   .gradient-border {
     border-image: linear-gradient(135deg, hsl(var(--neon-cyan)), hsl(var(--neon-blue))) 1;

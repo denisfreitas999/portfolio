@@ -26,8 +26,8 @@ const Education = () => {
 
             <div className="glass-card p-8 rounded-2xl glow-border border-2 border-primary/40 hover:scale-105 transition-transform duration-300 animate-fade-in" style={{ animationDelay: '0.1s' }}>
               <GraduationCap className="w-12 h-12 text-primary mb-4" />
-              <div className="inline-block px-3 py-1 bg-secondary/20 border border-secondary/50 rounded-full text-secondary font-rajdhani text-sm mb-4 animate-pulse-glow">
-                Em Andamento
+              <div className="inline-block px-3 py-1 bg-primary/20 border border-primary/50 rounded-full text-primary font-rajdhani text-sm mb-4">
+                Concluído
               </div>
               <h3 className="font-orbitron font-bold text-2xl mb-3">Mestrado em Ciência da Computação</h3>
               <p className="font-rajdhani text-lg text-muted-foreground mb-2">Universidade Federal de Sergipe (UFS)</p>
@@ -82,19 +82,11 @@ const Education = () => {
               </div>
               <div className="flex items-start gap-3">
                 <span className="text-primary mt-1">▹</span>
-                <span className="font-rajdhani text-lg">Governança e Segurança da Informação</span>
+                <span className="font-rajdhani text-lg">Inteligência Artificial</span>
               </div>
               <div className="flex items-start gap-3">
                 <span className="text-primary mt-1">▹</span>
-                <span className="font-rajdhani text-lg">Language Server Protocol</span>
-              </div>
-              <div className="flex items-start gap-3">
-                <span className="text-primary mt-1">▹</span>
-                <span className="font-rajdhani text-lg">Blockchain e Smart Contracts</span>
-              </div>
-              <div className="flex items-start gap-3">
-                <span className="text-primary mt-1">▹</span>
-                <span className="font-rajdhani text-lg">DevSecOps</span>
+                <span className="font-rajdhani text-lg">Segurança e Privacidade de Dados</span>
               </div>
             </div>
           </div>
