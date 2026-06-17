@@ -5,98 +5,33 @@ const Portfolio = () => {
   const projects = [
     {
       icon: Shield,
-      title: "NodeJS-Autenticacao-JWT",
-      description: "API Rest em Node.js com autenticação, perfis de usuários e permissões de um sistema de supermercado.",
-      tech: ["Node.js", "JWT", "Express"],
-      github: "https://github.com/denisfreitas999/NodeJS-Autenticacao-JWT",
-      live: "#"
-    },
-    {
-      icon: Lock,
-      title: "NodeJS-JWT-CRYPTOGRAPHY",
-      description: "Explorando fundamentos da criptografia: cifras, funções de hash, transmissão segura, criptografia simétrica e assimétrica, tokens JWT e técnicas de mitigação.",
-      tech: ["Node.js", "JWT", "Cryptography"],
-      github: "https://github.com/denisfreitas999/NodeJS-JWT-CRYPTOGRAPHY",
-      live: "#"
-    },
-    {
-      icon: Database,
-      title: "ORM-NodeJS-Sequelize-SQlite",
-      description: "API de uma plataforma de cursos utilizando ORM com Node.js, Sequelize e SQLite.",
-      tech: ["Node.js", "Sequelize", "SQLite"],
-      github: "https://github.com/denisfreitas999/ORM-NodeJS-Sequelize-SQlite",
-      live: "#"
-    },
-    {
-      icon: Brain,
-      title: "NodeJS-WebSockets",
-      description: "Projeto com WebSockets, implementando comunicações em tempo real com Socket.IO e MongoDB.",
-      tech: ["Node.js", "Socket.IO", "MongoDB"],
-      github: "https://github.com/denisfreitas999/NodeJS-WebSockets",
-      live: "#"
-    },
-    {
-      icon: Shield,
-      title: "Node-Unity-Integration-Tests",
-      description: "Testes de Unidade e Integração utilizando Node.js e Jest.",
-      tech: ["Node.js", "Jest", "Testing"],
-      github: "https://github.com/denisfreitas999/Node-Unity-Integration-Tests",
-      live: "#"
-    },
-    {
-      icon: Lock,
-      title: "QA-Robot-E2E-BDD-Test-Automation",
-      description: "Testes E2E Automatizados utilizando o framework Robot e o padrão Behavior Driven Development (BDD).",
-      tech: ["Robot Framework", "BDD", "E2E"],
-      github: "https://github.com/denisfreitas999/QA-Robot-E2E-BDD-Test-Automation",
+      title: "LGPD Compliance LSP",
+      description:
+        "Framework baseado no Language Server Protocol (LSP) para análise estática e detecção em tempo real de violações da LGPD durante o desenvolvimento. O projeto atua com a abordagem Shift-Left Security e fornece diagnósticos diretamente na IDE.",
+      tech: [
+        "TypeScript",
+        "Node.js",
+        "LSP",
+        "VS Code",
+        "LGPD",
+        "Static Analysis"
+      ],
+      github: "https://github.com/denisfreitas999/lgpd-compliance-lsp",
       live: "#"
     },
     {
       icon: Database,
-      title: "QA-Cypress-E2E-Test-Automation",
-      description: "Testes E2E Automatizados utilizando o Cypress.",
-      tech: ["Cypress", "JavaScript", "E2E"],
-      github: "https://github.com/denisfreitas999/QA-Cypress-E2E-Test-Automation",
-      live: "#"
-    },
-    {
-      icon: Brain,
-      title: "Evolving-my-JS-to-TS",
-      description: "Melhorando experiência de desenvolvimento com TypeScript.",
-      tech: ["TypeScript", "JavaScript", "Node.js"],
-      github: "https://github.com/denisfreitas999/Evolving-my-JS-to-TS",
-      live: "#"
-    },
-    {
-      icon: Database,
-      title: "PostgreSQL-learning",
-      description: "Exploração e aprendizagem do SGBD PostgreSQL e da Linguagem PL/pgSQL.",
-      tech: ["PostgreSQL", "PL/pgSQL", "SQL"],
-      github: "https://github.com/denisfreitas999/PostgreSQL-learning",
-      live: "#"
-    },
-    {
-      icon: Database,
-      title: "MySQL-learning",
-      description: "Repositório exploratório para aprendizagem de SQL utilizando o SGBD MySQL.",
-      tech: ["MySQL", "SQL", "Database"],
-      github: "https://github.com/denisfreitas999/MySQL-learning",
-      live: "#"
-    },
-    {
-      icon: Shield,
-      title: "NodeJS-Melhorando-Fluxo-Dev",
-      description: "Node.js melhorando o fluxo de desenvolvimento e integração de equipe.",
-      tech: ["Node.js", "DevOps", "CI/CD"],
-      github: "https://github.com/denisfreitas999/NodeJS-Melhorando-Fluxo-Dev",
-      live: "#"
-    },
-    {
-      icon: Brain,
-      title: "Git-Github-Rep",
-      description: "Repositório de testes para comandos de Git e Github.",
-      tech: ["Git", "GitHub", "Version Control"],
-      github: "https://github.com/denisfreitas999/Git-Github-Rep",
+      title: "DevSecOps LSP Test",
+      description:
+        "API de prova de conceito utilizada para validar o framework de conformidade com a LGPD. O projeto demonstra a integração contínua do analisador como um Security Gate em pipelines CI/CD, permitindo bloquear código não conforme.",
+      tech: [
+        "Node.js",
+        "JavaScript",
+        "DevSecOps",
+        "CI/CD",
+        "GitHub Actions"
+      ],
+      github: "https://github.com/denisfreitas999/devsecops-lsp-test",
       live: "#"
     }
   ];
